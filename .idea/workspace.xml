@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="">
+    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="fix push script name in ci config">
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,8 @@
     <MESSAGE value="init go module" />
     <MESSAGE value="use other import" />
     <MESSAGE value="add docker push script" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker push script" />
+    <MESSAGE value="fix push script name in ci config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix push script name in ci config" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
