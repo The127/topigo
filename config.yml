@@ -1,0 +1,9 @@
+server:
+  host: "localhost"
+  port: 5656
+
+storage:
+  directory: "C:\\topigo"
+  retentionDays: 5
+  deletionBufferDays: 2
+  deletionIntervalHours: 6

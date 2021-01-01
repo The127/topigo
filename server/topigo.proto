@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+option go_package = ".;server";
+
+service Topigo {
+  rpc CreateSubscription(CreateSubscriptionRequest) returns (CreateSubscriptionResponse);
+  rpc ModifySubscription(ModifySubscriptionRequest) returns (ModifySubscriptionResponse);
+  rpc DeleteSubscription(DeleteSubscriptionRequest) returns (DeleteSubscriptionResponse);
+
+  rpc StartSubscriptionStreaming(StartSubscriptionStreamingRequest) returns (stream Message);
+  rpc EndSubscriptionStreaming(EndSubscriptionStreamingRequest) returns (EndSubscriptionStreamingResponse);
+
+  rpc Publish(PublishRequest) returns (PublishResponse);
+}
+
+message CreateSubscriptionRequest {
+  string subscriptionToken = 1;
+}
+
+message CreateSubscriptionResponse {
+  enum CreateSubscriptionResult {
+    Created = 0;
+    Exists = 1;
+  }
+  CreateSubscriptionResult result = 1;
+}
+
+message ModifySubscriptionRequest {
+  string subscriptionToken = 1;
+  repeated string topics = 2;
+}
+
+message ModifySubscriptionResponse {
+  enum ModifySubscriptionResult {
+    Success = 0;
+    DoesNotExist = 1;
+    AlreadyInUse = 2;
+  }
+  ModifySubscriptionResult result = 1;
+}
+
+message DeleteSubscriptionRequest {
+  string subscriptionToken = 1;
+}
+
+message DeleteSubscriptionResponse {
+  enum DeleteSubscriptionResult {
+    Deleted = 0;
+    Error = 1;
+  }
+  DeleteSubscriptionResult result = 1;
+}
+
+message StartSubscriptionStreamingRequest {
+  string subscriptionToken = 1;
+}
+
+message Message {
+  string topic = 1;
+  string content = 2;
+}
+
+message EndSubscriptionStreamingRequest {
+  string subscriptionToken = 1;
+}
+
+message EndSubscriptionStreamingResponse {
+  enum EndSubscriptionStreamingResult {
+    Ended = 0;
+    Error = 1;
+  }
+  EndSubscriptionStreamingResult result = 1;
+}
+
+message PublishRequest {
+  string subscriptionToken = 1;
+  Message message = 2;
+}
+
+message PublishResponse {
+
+}
