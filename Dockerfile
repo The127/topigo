@@ -1,5 +1,5 @@
 FROM golang:alpine as builder
-RUN apk --no-cache add build-base git bzr mercurial gcc make
+RUN apk --no-cache add build-base git mercurial gcc make
 ADD . /src
 RUN cd /src && make build
 
