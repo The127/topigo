@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="">
+    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="add docker push script">
+      <change afterPath="$PROJECT_DIR$/docker_push.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/subscriptionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/subscriptionManager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/topicgoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/topicgoServer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,8 @@
     <MESSAGE value="move code into src folder" />
     <MESSAGE value="test build without go get" />
     <MESSAGE value="init go module" />
-    <option name="LAST_COMMIT_MESSAGE" value="init go module" />
+    <MESSAGE value="use other import" />
+    <option name="LAST_COMMIT_MESSAGE" value="use other import" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
