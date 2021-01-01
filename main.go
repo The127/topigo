@@ -3,15 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/The127/topigo/config"
+	"github.com/The127/topigo/globals"
+	topigo "github.com/The127/topigo/server"
 	"google.golang.org/grpc"
 	"log"
 	"net"
 	"os"
 	"path"
-	"topigo/globals"
-	topigo "topigo/server"
 )
-import "topigo/config"
 
 // protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative topigo.proto
 

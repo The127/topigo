@@ -2,13 +2,13 @@ package server
 
 import (
 	"encoding/json"
+	"github.com/The127/topigo/config"
+	"github.com/The127/topigo/globals"
 	"github.com/nanobox-io/golang-scribble"
 	"log"
 	"os"
 	"path"
 	"sync"
-	"topigo/config"
-	"topigo/globals"
 )
 
 type subscriptionManager struct {

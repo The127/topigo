@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/subscriptionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/subscriptionManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/topicgoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/topicgoServer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1mKn7ndc9Rc4iEH7JGMTeypduTV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -43,14 +50,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go build topigo/src" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="topigo" />
       <working_directory value="$PROJECT_DIR$" />
       <parameters value="-v" />
-      <kind value="DIRECTORY" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="topigo" />
-      <directory value="$PROJECT_DIR$/src" />
+      <directory value="$PROJECT_DIR$" />
       <output_directory value="$USER_HOME$/out" />
       <method v="2" />
     </configuration>
@@ -66,6 +73,10 @@
     <MESSAGE value="update makefile to use tabs" />
     <MESSAGE value="move code into src folder" />
     <MESSAGE value="test build without go get" />
-    <option name="LAST_COMMIT_MESSAGE" value="test build without go get" />
+    <MESSAGE value="init go module" />
+    <option name="LAST_COMMIT_MESSAGE" value="init go module" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>

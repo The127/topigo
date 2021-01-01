@@ -3,6 +3,8 @@ package server
 import (
 	"context"
 	"encoding/json"
+	"github.com/The127/topigo/config"
+	"github.com/The127/topigo/globals"
 	scribble "github.com/nanobox-io/golang-scribble"
 	"log"
 	"os"
@@ -10,8 +12,6 @@ import (
 	"sort"
 	"sync"
 	"time"
-	"topigo/config"
-	"topigo/globals"
 )
 
 type topicgoServer struct {
