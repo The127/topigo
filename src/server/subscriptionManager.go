@@ -7,8 +7,8 @@ import (
 	"os"
 	"path"
 	"sync"
-	"topigo/config"
-	"topigo/globals"
+	"topigo/src/config"
+	"topigo/src/globals"
 )
 
 type subscriptionManager struct {

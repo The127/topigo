@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="">
+    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="update makefile to use tabs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/globals/globals.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals/globals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/StreamingErrors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/StreamingErrors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/storedMessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/storedMessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/subscription.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/subscription.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/subscriptionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/subscriptionManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/topicgoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topicgoServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/topigo.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/topigo.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/topigo_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo_grpc.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +49,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\go\src\topigo\src" />
       <recent name="C:\Users\julia\go\src\topigo\server" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go build topigo" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build topigo/src" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="topigo" />
       <working_directory value="$PROJECT_DIR$" />
       <parameters value="-v" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="topigo" />
-      <directory value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$/src" />
       <output_directory value="$USER_HOME$/out" />
       <method v="2" />
     </configuration>
@@ -62,6 +74,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="ci build" />
     <MESSAGE value="remove bzr reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove bzr reference" />
+    <MESSAGE value="update makefile to use tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="update makefile to use tabs" />
   </component>
 </project>

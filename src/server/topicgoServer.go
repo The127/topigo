@@ -10,8 +10,8 @@ import (
 	"sort"
 	"sync"
 	"time"
-	"topigo/config"
-	"topigo/globals"
+	"topigo/src/config"
+	"topigo/src/globals"
 )
 
 type topicgoServer struct {
