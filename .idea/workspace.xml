@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="update makefile to use tabs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/globals/globals.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals/globals.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/StreamingErrors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/StreamingErrors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/message.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/storedMessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/storedMessage.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/subscription.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/subscription.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/subscriptionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/subscriptionManager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/topicgoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topicgoServer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/topigo.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/topigo.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/topigo_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/topigo_grpc.pb.go" afterDir="false" />
+    <list default="true" id="b062b972-88cf-4cc1-bce7-8b856e2bd106" name="Default Changelist" comment="move code into src folder">
+      <change beforePath="$PROJECT_DIR$/src/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals/globals.go" beforeDir="false" afterPath="$PROJECT_DIR$/globals/globals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/StreamingErrors.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/StreamingErrors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/storedMessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/storedMessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/subscription.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/subscription.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/subscriptionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/subscriptionManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/topicgoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/topicgoServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/topigo.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/topigo.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/topigo.proto" beforeDir="false" afterPath="$PROJECT_DIR$/server/topigo.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/topigo_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/topigo_grpc.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +74,7 @@
     <MESSAGE value="ci build" />
     <MESSAGE value="remove bzr reference" />
     <MESSAGE value="update makefile to use tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="update makefile to use tabs" />
+    <MESSAGE value="move code into src folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="move code into src folder" />
   </component>
 </project>

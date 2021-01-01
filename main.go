@@ -8,10 +8,10 @@ import (
 	"net"
 	"os"
 	"path"
-	"topigo/src/globals"
-	topigo "topigo/src/server"
+	"topigo/globals"
+	topigo "topigo/server"
 )
-import "topigo/src/config"
+import "topigo/config"
 
 // protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative topigo.proto
 

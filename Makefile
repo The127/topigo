@@ -7,5 +7,4 @@ BINARY_NAME=topico
 all: build
 
 build:
-	$(GOGET) -u ./...
 	$(GOBUILD) -o $(BINARY_NAME) -v
